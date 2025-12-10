@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/12/01 13:51:57 by fducrot           #+#    #+#             */
-/*   Updated: 2025/12/01 13:51:57 by fducrot          ###   ########.ch       */
+/*   Created: 2025/12/10 09:50:30 by fducrot           #+#    #+#             */
+/*   Updated: 2025/12/10 09:50:54 by fducrot          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,9 @@
 # include <stdlib.h>
 # include <string.h>
 # include <unistd.h>
+# include <stdbool.h>
+# include <sys/types.h>
+# include <sys/wait.h>
 # include "ft_printf/ft_printf.h"
 # include "get_next_line/get_next_line.h"
 

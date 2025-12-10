@@ -3,20 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstclear.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fdcurot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
+/*   By: fducrot <fducrot@student.42lausanne.ch>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/10/06 14:32:43 by fdcurot           #+#    #+#             */
-/*   Updated: 2025/10/06 20:40:54 by fdcurot          ###   ########.fr       */
+/*   Created: 2025/12/10 09:49:28 by fducrot           #+#    #+#             */
+/*   Updated: 2025/12/10 09:49:28 by fducrot          ###   ########.ch       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*void	ft_dellst(void* content)
-{
-	content = NULL;
-	return ((void)content);
-}*/
 
 void	ft_lstclear(t_list **lst, void (*del)(void*))
 {
